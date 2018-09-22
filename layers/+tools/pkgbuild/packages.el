@@ -12,4 +12,12 @@
 (defconst pkgbuild-packages '(pkgbuild-mode))
 
 (defun pkgbuild/init-pkgbuild-mode ()
-  (use-package pkgbuild-mode))
+  (use-package pkgbuild-mode
+    :init
+    (progn
+      (spacemacs/set-leader-keys-for-major-mode 'pkgbuild-mode
+        "b" 'pkgbuild-makepkg
+        "s" 'pkgbuild-update-sums-line
+        "t" 'pkgbuild-tar
+        "i" 'pkgbuild-increase-release-tag))))
+
