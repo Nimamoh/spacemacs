@@ -49,7 +49,7 @@ This layer adds support for [[https://clojure.org/][Clojure]] language using [[h
 - Refactoring via [[https://github.com/clojure-emacs/clj-refactor.el][clj-refactor]]
 - Aligning of code forms via [[https://github.com/clojure-emacs/clojure-mode][clojure-mode]]
 - Debugging with [[https://bpiel.github.io/sayid/][sayid]]
-- Advanced help with [[https://github.com/clojure-emacs/helm-cider][helm-cider]] 
+- Advanced help with [[https://github.com/clojure-emacs/helm-cider][helm-cider]]
 - Structuraly safe editing using optional [[https://github.com/luxbock/evil-cleverparens][evil-cleverparens]]
 
 * Install
@@ -123,7 +123,7 @@ More info regarding installation of nREPL middleware can be found here:
 - clj-refactor: [[https://github.com/clojure-emacs/refactor-nrepl][refactor-nrepl]]
 
 * Usage
-** Advanced help  
+** Advanced help
 This layer installs the [[https://github.com/clojure-emacs/helm-cider][helm-cider]]  package which provide helm integration
 with cider apropos. It also embeds clojure cheatsheet
 
