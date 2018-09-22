@@ -20,4 +20,3 @@
         "s" 'pkgbuild-update-sums-line
         "t" 'pkgbuild-tar
         "i" 'pkgbuild-increase-release-tag))))
-
