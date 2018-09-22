@@ -1,0 +1,28 @@
+#+TITLE: pkgbuild layer
+
+# The maximum height of the logo should be 200 pixels.
+[[img/pkgbuild.png]]
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+This layer adds support [[https://github.com/juergenhoetzel/pkgbuild-mode][pkgbuild-mode]].
+
+** Features:
+  - PKGBUILD edit capabilities
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =pkgbuild= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key Binding | Description    |
+|-------------+----------------|
+| ~SPC x x x~ | Does thing01   |
